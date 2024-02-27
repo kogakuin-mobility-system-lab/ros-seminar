@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="ros_seminar" name="time_pub" type="time_pub2.py" />
+    <node pkg="ros_seminar" name="time_sub" type="time_sub2.py" />
+</launch>
